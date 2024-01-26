@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MojiRecepti</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_dorucak">Dorucak</string>
+    <string name="menu_rucak">Rucak</string>
+    <string name="menu_vecera">Vecera</string>
+    <string name="menu_uzina">Uzina</string>
+    <string name="menu_napici">Napici</string>
+    <string name="menu_pocetna">Pocetna</string>
+    <string name="menu_omiljeni">Omiljeni</string>
+    <string name="menu_dodaj_recept">Dodaj recept</string>
+    <string name="menu_pretraga">Pretraga</string>
+    <string name="karegorije">Kategorije</string>
+    <string name="menu_kategorije">Kategorije</string>
+    <string name="pretrazite_rezepte_po_nazivu">Pretrazite rezepte po nazivu:</string>
+    <string name="dobrodosli">DOBRODOSLI NA</string>
+</resources>

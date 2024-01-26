@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_pocetna">
+
+    <fragment
+        android:id="@+id/nav_pocetna"
+        android:label="@string/menu_pocetna"
+        tools:layout="@layout/fragment_pocetna" />
+
+    <fragment
+        android:id="@+id/nav_kategorije"
+        android:label="@string/menu_kategorije"
+        tools:layout="@layout/fragment_karegorije" />
+
+    <fragment
+        android:id="@+id/nav_pretraga"
+        android:label="@string/menu_pretraga"
+        tools:layout="@layout/fragment_pretraga" />
+
+    <fragment
+        android:id="@+id/nav_omiljeni"
+        android:label="@string/menu_omiljeni"
+        tools:layout="@layout/fragment_omiljeni" />
+</navigation>

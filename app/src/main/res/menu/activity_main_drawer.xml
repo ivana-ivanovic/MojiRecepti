@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pocetna"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_pocetna" />
+        <item
+            android:id="@+id/nav_omiljeni"
+            android:icon="@drawable/image_favorite"
+            android:title="@string/menu_omiljeni" />
+        <item
+            android:id="@+id/nav_dodaj_recept"
+            android:icon="@drawable/image_add"
+            android:title="@string/menu_dodaj_recept" />
+        <item
+            android:id="@+id/nav_pretraga"
+            android:icon="@drawable/image_search"
+            android:title="@string/menu_pretraga" />
+    </group>
+    <item android:title="@string/karegorije">
+        <menu>
+            <item
+                android:id="@+id/nav_dorucak"
+                android:icon="@drawable/image_breakfast"
+                android:title="@string/menu_dorucak" />
+            <item
+                android:id="@+id/nav_rucak"
+                android:icon="@drawable/image_lunch"
+                android:title="@string/menu_rucak" />
+            <item
+                android:id="@+id/nav_vecera"
+                android:icon="@drawable/image_dinner"
+                android:title="@string/menu_vecera" />
+            <item
+                android:id="@+id/nav_uzina"
+                android:icon="@drawable/image_snack"
+                android:title="@string/menu_uzina" />
+            <item
+                android:id="@+id/nav_napici"
+                android:icon="@drawable/image_drink"
+                android:title="@string/menu_napici" />
+        </menu>
+    </item>
+</menu>
