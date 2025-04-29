@@ -287,6 +287,7 @@ public class ReceptiBaza extends SQLiteOpenHelper {
         String[] selectionArgs = {String.valueOf(id)};
         int count = db.update(ReceptTabela.ReceptKolone.TABLE_NAME, cv, selection, selectionArgs);
     }
+
     public void dodajUOmiljeni (int id) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues cv = new ContentValues();
@@ -296,6 +297,5 @@ public class ReceptiBaza extends SQLiteOpenHelper {
         int count = db.update(ReceptTabela.ReceptKolone.TABLE_NAME, cv, selection, selectionArgs);
 
     }
-
 
 }

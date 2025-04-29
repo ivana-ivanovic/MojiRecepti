@@ -24,16 +24,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="Ivana Jevtic"
+        android:text="@string/ivana_ivanovic"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#040404"
         android:textSize="18sp" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="2018240628 centar Nis"
-        android:textColor="#040404"
-        android:textSize="18sp" />
 </LinearLayout>

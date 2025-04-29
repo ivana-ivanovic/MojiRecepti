@@ -47,14 +47,16 @@ public class ReceptActivity extends AppCompatActivity implements View.OnClickLis
         new DownloadImageTask(slika).execute(r.getSlika());
         labelReceptANaziv.setText(r.getNaziv());
         labelReceptAKalorije.setText( String.valueOf(r.getKalorije()) + " kcal.");
-        labelReceptAVremePripreme.setText("Priprema: " + String.valueOf(r.getVremePripreme()) + " min.\n" + String.valueOf(r.getPriprema()));
+        labelReceptAVremePripreme
+                .setText("Priprema: " + String.valueOf(r.getVremePripreme()) + " min.\n" + String.valueOf(r.getPriprema()));
         labelReceptAPriprema.setText(r.getPriprema());
 
         ArrayList<String> listaSastojakaString = new ArrayList<>();
         for (Sastojak s: r.getSastojci()) {
             listaSastojakaString.add(s.toString());
         }
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.sastojak_red_recept_activity, listaSastojakaString);
+        ArrayAdapter<String> adapter =
+                new ArrayAdapter<String>(this, R.layout.sastojak_red_recept_activity, listaSastojakaString);
         listReceptASastojci.setAdapter(adapter);
 
         dugmeSlikaReceptA.setOnClickListener(this);
@@ -73,3 +75,4 @@ public class ReceptActivity extends AppCompatActivity implements View.OnClickLis
         }
     }
 }
+
